@@ -1,0 +1,10 @@
+{
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/att1/"},
+        {"packagist.org": false}
+    ],
+    "require": {
+        "org/foo": "^1.2.3",
+        "org/bar": "dev-master"
+    }
+}
