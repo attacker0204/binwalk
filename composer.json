@@ -1,8 +1,25 @@
 {
     "repositories": [
         {"type": "composer", "url": "https://repo.packagist.com/att1/"},
-        {"packagist.org": true}
+        {"packagist.org": true},
+        {
+    "name": "smarty/smarty",
+    "version": "3.1.7",
+    "dist": {
+        "url": "https://www.smarty.net/files/Smarty-3.1.7.zip",
+        "type": "zip"
+    },
+    "source": {
+        "url": "http://smarty-php.googlecode.com/svn/",
+        "type": "svn",
+        "reference": "tags/Smarty_3_1_7/distribution/"
+    },
+    "autoload": {
+        "classmap": ["libs/"]
+    }
+}
     ],
+    
     "require": {
         "org/foo": "^1.2.3",
         "org/bar": "dev-master"
