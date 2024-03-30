@@ -1,7 +1,7 @@
 {
     "repositories": [
         {"type": "composer", "url": "https://repo.packagist.com/att1/"},
-        {"packagist.org": false}
+        {"packagist.org": true}
     ],
     "require": {
         "org/foo": "^1.2.3",
